@@ -9,7 +9,7 @@
         <link rel="stylesheet" href="css/leaflet1.css">
 		<!--link href = "https://code.jquery.com/ui/1.10.4/themes/ui-lightness/jquery-ui.css"
          rel = "stylesheet"-->
-		<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css"><link rel="stylesheet" href="css/L.Control.Locate.min.css">
+		<!--link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css"><link rel="stylesheet" href="css/L.Control.Locate.min.css"-->
 		<link rel="preconnect" href="https://fonts.gstatic.com">
 		<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap" rel="stylesheet"> 
         <link rel="stylesheet" href="css/qgis2web.css">
@@ -35,7 +35,7 @@
         </div>
 		
         <script src="js/qgis2web_expressions.js"></script>
-        <script src="js/leaflet.js"></script><script src="js/L.Control.Locate.min.js"></script>
+        <script src="js/leaflet.js"></script><!--script src="js/L.Control.Locate.min.js"></script-->
         <script src="js/leaflet.rotatedMarker.js"></script>
         <script src="js/leaflet.pattern.js"></script>
         <script src="js/leaflet-hash.js"></script>
@@ -1117,7 +1117,7 @@
 		map.attributionControl.addAttribution('<a href="https://bdl.stat.gov.pl/BDL/start" target="_blank">GUS - Bank Danych Lokalnych</a>');
 		
         //basemap0.addTo(map);
-		L.control.locate().addTo(map);
+		//L.control.locate().addTo(map);
 		
 		/*const MultipleResultsLeafletSearch = L.Control.Search.extend({
 		  _defaultFilterData: (text, records) => records,
