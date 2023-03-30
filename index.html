@@ -1161,8 +1161,9 @@
 			map.getPane('labels').style.display = 'inline-block';
 			/*map.getPane('labels').style['text-align'] = 'center';*/
 			
-			if(e.layer._popup)
+			setTimeout(function () {
 				e.layer.openPopup();
+			},800);
 				//https://bdot10k.geoportal.gov.pl/#showLayersList&1618582473368
 		}).on('search:collapsed', function(e) {
 
