@@ -1436,7 +1436,9 @@
 			\
 		</div>');*/
 		var _slider = insertSlider(9, "", 7);
-		$('.leaflet-control-layers-list:eq( 0 )').append('<div id="slider">'+_slider+'</div>');
+		//$('.leaflet-control-layers-list:eq( 0 )').append('<div id="slider">'+_slider+'</div>');
+		$('<div id="slider">'+_slider+'</div>').insertBefore('.leaflet-control-layers-base:eq(0)');
+		$('<div style="margin-top: 48px;"></div>').insertBefore('.leaflet-control-layers-base:eq(0)');
 	
 		function dxSimpleSlider(element) {
 			//element = '#dx-slider';

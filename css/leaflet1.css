@@ -946,6 +946,7 @@ a {
 	}
 	.leaflet-control-layers .leaflet-control-layers-list{
 		margin-top: 8px;
+		/*width: 480px;*/
 	}
 .leaflet-control-layers-expanded .leaflet-control-layers-list {
 	display: block;
@@ -1358,8 +1359,8 @@ a {
 	border-right-color: #fff;
 	}
         #slider {
-            width: 320px;
-            height: 320px;
+            width: 448px;
+            height: 448px;
             margin: auto;
             position: relative;
             font-family: 'Roboto', Arial, Helvetica, sans-serif;
